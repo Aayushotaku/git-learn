@@ -1,0 +1,638 @@
+*{
+    margin: 0;
+    
+}
+
+
+
+.box-image:hover{
+    transform: scale(1);
+    border: darkblue;
+
+}
+
+.navbar{
+    height: 50px;
+    background-color:#0f1111;
+    color: white;
+    display: flex;
+    padding: 15px;
+    }
+    
+    .nav-logo{
+        height: 50px;
+        width: 159px;
+    }
+    .nav-address{
+        margin-left:200px ;
+        display: flex;
+    }
+.logo{
+    background-image: url(logo\ \(1\).png);
+    height: 100%;
+    width: 150px;
+    background-size: cover;
+}
+.add-icon{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.serch-bar{
+    margin-left: 22px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.fa-solid {
+    color: blanchedalmond;
+}
+.add-icon2{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.add-icon3{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.add-icon4{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.nav-serch input{
+    margin-left: 25px;
+    width: 300px;
+    height: 30px;
+}
+
+
+.nav-serch{
+    display: flex;
+    margin-left: 25px;
+}
+/* button{
+    flex left: 20px;
+    colour
+} */
+
+.button1{
+    margin-left: 200px;
+    height: 40px;
+    height: 30px;
+    background-color: blanchedalmond;
+
+}
+.hero-section{
+    background-image: url(f6791255d2b071c16fbd08513510f02e.jpg);
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    background-color: #0f1111;
+
+}
+.hero-message{
+    
+    color: rgb(131, 10, 10);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85px;
+    width: 20%;
+    margin-bottom: 200px;
+    ;
+}
+/* shop section */
+.shop-section{
+
+    background-color:#0F1111;
+    color:white;
+    height: 550px;
+    padding-top: 10px;
+    width: 100%;
+    
+}
+
+.shop-sections{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: -9000px;
+
+}
+
+
+.box{
+    
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    color:white;
+    font-style: italic;
+    background-color: black;
+}
+.box-image1{
+    
+    height: 340px;
+    width: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.explaintion{
+    
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background-color: #0F1111;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.box-image2{background-image: url(Naruto.jpg);
+ height: 340px;
+    width: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-image3{
+    background-image: url(hunterxhunter.jpg);
+    height: 340px;
+    width: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-image4{
+    background-image: url(pokemon.jpg);
+    height: 340px;
+    width: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-image5{
+    background-image: url(fairy\ tale.jpg);
+    height: 340px;
+    width: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.genre{
+    color: white;
+    width: 100%;
+    height: 50px;
+    
+    background-color: #0F1111;
+}
+.box-image-info{
+    
+    width: 290px;
+    height: 130px;
+    color: white;
+}
+.box-image2-info{
+    width: 290px;
+    height: 130px;
+    color: white;
+}
+.box-image3-info{
+    width: 290px;
+    height: 145px;
+    color: white;
+}
+.box-image4-info{
+    width: 290px;
+    height: 130px;
+    color: white;
+}
+.box-image5-info{
+    width: 290px;
+    height: 130px;
+    color: white;
+}
+.hero-message{
+    
+    color: rgb(131, 10, 10);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85px;
+    width: 20%;
+    margin-bottom: 200px;
+}
+.action-section{
+    background-color:#0F1111;
+    color:white;
+    height: 590px;
+    padding-top: 10px;
+    width: 100%;
+    
+    /* yo na diya par mathi sanga intersect huna janxa */
+    margin-top: 189px;
+
+}
+.action-sections{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 25px;
+}
+.box-image6{
+    background-image: url(tokyo\ revenger.jpg);
+    height: 340px;
+    width: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-image7{
+    background-image: url(eminece\ in\ shadow.jpg);
+    height: 340px;
+    width: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-image8{
+    
+    height: 340px;
+    width: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-image9{
+    background-image: url(chained\ sholider.jpg);
+    height: 340px;
+    width: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.box-10{
+    height: 1100px;
+    width: 290px;
+    
+    
+}
+.boximage6-info{
+    width: 290px;
+    height: 145px;
+    color: white;
+
+}
+
+.boximage7-info{
+    width: 290px;
+    height: 145px;
+    color: white;
+}
+
+.boximage8-info{
+    width: 290px;
+    height: 145px;
+    color: white;
+}
+
+.boximage9-info{
+    width: 290px;
+    height: 145px;
+    color: white;
+
+}
+.romance-section{
+    background-color:#0F1111;
+    color:white;
+    height: 590px;
+    padding-top: 10px;
+    width: 100%;
+    
+    }
+    .romance-sections{
+        display: flex;
+        justify-content: space-evenly;}
+        .hero-message{
+    
+            color: rgb(131, 10, 10);
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85px;
+            width: 20%;
+            margin-bottom: 200px;
+        }
+        .romance-section{
+            background-color:#0F1111;
+            color:white;
+            height: 590px;
+            padding-top: 50px;
+           
+            
+            /* yo na diya par mathi sanga intersect huna janxa */
+            margin-top: 0px;
+            ;
+        
+        }
+       
+        .romance-sections{
+            display: flex;
+            width: 1500px;
+            padding-left: 25px;
+            justify-content: normal;
+        }
+        .box-image11{
+            background-image: url(fruit\ basket.jpg);
+            height: 340px;
+            width: 286px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: 0px;
+        }
+        .box-image12{
+            background-image: url(kini.jpg);
+            height: 340px;
+            width: 286px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box-image13{
+            background-image: url(you\ lie\ in\ april.jpg);
+            height: 340px;
+            width: 286px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box-14{
+            width: 260px;
+        }
+        .box-image14{
+            background-image: url(your\ name.jpg);
+            height: 340px;
+            width: 260px;
+            background-repeat: no-repeat;
+            background-size: cover;}
+
+            .box-image14:hover .overlay {
+                opacity: 1;
+            }
+        
+        .boximage11-info{
+            width: 290px;
+            height: 145px;
+            color: white;
+        
+        }
+        
+        .boximage12-info{
+            width: 290px;
+            height: 145px;
+            color: white;
+    
+        }
+        
+        .boximage13-info{
+            width: 290px;
+            height: 145px;
+            color: white;
+        
+        }
+        
+        .boximage14-info{
+            width: 260px;
+            height: 145px;
+            color: white;
+        
+        }
+        .box-15{
+            visibility: hidden;
+        }
+        .straintline{border: 2px solid darkblue;
+            width: 100%;
+            height: 0%;
+
+        }
+    .nav-bar22{
+        border: 3px solid red;
+        width: 100%;
+        height: 900px;
+        display: inline-flex;
+
+    }
+    .small-box{
+    
+        width: 290px;
+        height: 50px;
+    }
+    .small-box2{
+        display: flex;
+        
+        width: 290px;
+        height: 90px;
+        padding: 5px;
+        
+    }
+    .small-box2:hover{
+        transform: scale(1.2);
+        background-color:black;
+    }
+    .small-box2{
+        
+        border-radius: 10px;
+    }
+    p{
+        text-align: center;
+    }
+    hr{
+        
+        border: 1px solid gray;
+    }
+    .formbox{
+        
+        height: 500px;
+    position: absolute;
+ margin-top: 100px;
+ margin-left: 100px;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        display: flex;
+        left: 300px;
+        bottom: -120px;
+        
+    }
+    section{
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 400px;
+        background-image: url(backmm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover
+    
+        ;
+    }
+
+        .photo{
+            height: 450px;
+            width: 300px;
+            position: absolute;
+            right: -270px;
+            top: -15px;
+        }
+        .group{
+            /* border kina aarako thau ma aayo */
+            align-items: center;
+            left: -250px;
+            top: 50px;
+            height: 450px;
+            width: 950px;
+            background-color:black;
+            position: relative;
+        }
+        h1{
+            text-align: center;
+        }
+        .whole-box2:hover{
+            transform: scale(1.2);
+        }
+        .whole-box2{
+            background-color: #0f1111;
+            border-radius: 10px;
+        }
+        .whole-box1:hover{
+            transform: scale(1.2);
+        }
+        .whole-box1{
+            background-color: #0f1111;
+            border-radius: 10px;
+        }
+        .whole-box5:hover{
+            transform: scale(1.2);
+        }
+        .whole-box5{
+            background-color: #0F1111;
+            border-radius: 10px;
+        }
+        .whole-box3:hover{
+            transform: scale(1.2);
+        }
+        .whole-box3{
+            background-color: #0f1111;
+            border-radius: 10px;
+        }
+        .whole-box4:hover{
+            transform: scale(1.2);
+        }
+        .whole-box4{
+            background-color: #0f1111;
+            border-radius: 10px;
+        }
+        .whole-box6:hover{
+            transform: scale(1.2);
+        }
+        .whole-box6{
+            background-color: #0F1111;
+            border-radius: 10px;
+        }
+        .whole-box7:hover{
+            transform: scale(1.2);
+        }
+        .whole-box7{
+            background-color: #0F1111;
+            border-radius: 10px;
+        }
+        .whole-box8:hover{
+            transform: scale(1.2);
+        }
+        .whole-box8{
+            background-color: #0F1111;
+            border-radius: 10px;
+        }
+        .whole-box9:hover{
+            transform: scale(1.2);
+        }
+        .whole-box9{
+            background-color: #0F1111;
+            border-radius: 10px;
+        }
+        .whole-box11:hover{
+            transform: scale(1.2);
+        }
+        .whole-box11{
+            background-color: #0F1111;
+            border-radius: 10px;
+        }
+        .whole-box12:hover{
+            transform: scale(1.2);
+        }
+        .whole-box12{
+            background-color: #0F1111;
+            border-radius: 10px;
+        }
+        .whole-box13:hover{
+            transform: scale(1.2);
+        }
+        .whole-box13{
+            background-color: #0F1111;
+            border-radius: 10px;
+        }
+        .whole-box14:hover{
+            transform: scale(1.2);
+        }
+        .whole-box14{
+            background-color: #0F1111;
+            border-radius: 10px;
+        }
+        .last{
+            width: 100%;
+            height: 300px;
+            position: relative;
+            bottom: -2601px;
+            position: absolute;
+            background-color: #0f1111;
+            background-image: none;
+        
+        }
+        .last-p{
+            position: relative;
+            top: -130px;
+            left: 230px;
+            font-size: 35px;
+        }
+        .last-img{
+            position: relative;
+            left: -78px;
+        }
+        .last-one{
+            position: relative;
+            left: -330px;
+            top: 20px;
+        }
+        .website{
+            position: relative;
+            right: 260px;
+            top: -80px;
+
+        }
+        .luffy:hover{
+            transform: scale(1.2);
+        }
